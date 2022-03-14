@@ -1,0 +1,63 @@
+[
+  {
+    "name": "Avalanche C-Chain Mainnet",
+    "chain": "Avalanche",
+    "icon": "ethereum",
+    "rpc": [
+      "https://api.avax.network/ext/bc/C/rpc"
+    ],
+    "faucets": [
+      
+    ],
+    "nativeCurrency": {
+      "name": Avalanche",
+      "symbol": "AVAX",
+      "decimals": 18
+    },
+    "infoURL": "https://www.avax.network/",
+    "shortName": "avax",
+    "chainId": 43114,
+    "networkId": 43114,
+    "slip44": 60,
+    "ens": {
+      "registry": "0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e"
+    },
+    "explorers": [
+      {
+        "name": "Snowtrace",
+        "url": "https://snowtrace.io/",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+  {
+    "name": "Fuji",
+    "title": "Avalanche C-Chain Testnet",
+    "chain": "Avalanche",
+    "rpc": [
+      "https://api.avax-test.network/ext/bc/C/rpc"
+    ],
+    "faucets": [
+      "https://faucet.avax-test.network/"
+    ],
+    "nativeCurrency": {
+      "name": "Fuji AVAX",
+      "symbol": "FUJI AVAX",
+      "decimals": 18
+    },
+    "infoURL": "https://github.com/ava-labs/",
+    "shortName": "avax",
+    "chainId": 43113,
+    "networkId": 43113,
+    "ens": {
+      "registry": "0x112234455c3a32fd11230c42e7bccd4a84e02010"
+    },
+    "explorers": [
+      {
+        "name": "Snowtrace",
+        "url": "https://testnet.snowtrace.io/",
+        "standard": "EIP3091"
+      }
+    ]
+  },
+]

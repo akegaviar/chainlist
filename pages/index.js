@@ -67,7 +67,7 @@ const searchTheme = createTheme({
 const fetcher = (...args) => fetch(...args).then((res) => res.json());
 
 export async function getStaticProps({ params }) {
-  const chains = await fetcher("https://chainid.network/chains.json");
+  const chains = await fetcher("https://subnet.tech/chains.json");
   const chainTvls = await fetcher("https://api.llama.fi/chains");
 
   function populateChain(chain) {
