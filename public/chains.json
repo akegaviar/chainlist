@@ -10,7 +10,7 @@
       
     ],
     "nativeCurrency": {
-      "name": Avalanche",
+      "name": "Avalanche",
       "symbol": "AVAX",
       "decimals": 18
     },
